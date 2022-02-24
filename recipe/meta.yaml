@@ -1,5 +1,5 @@
 {% set name = "rp2biosensor" %}
-{% set version = "1.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/rp2biosensor/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 9aa055fa2cca0b9289f0b46197ad8905b06d72c5abb954c85cec1e5e14352a79
+  sha256: a9f3f18c6844b395c97f4a80f9645ef8b779f5d45fe80baa2402ff79dbc90de8
 
 build:
   number: 0
@@ -25,6 +25,7 @@ requirements:
     - networkx
     - rdkit
     - rr_cache
+    - rxn_rebuild
 
 test:
   source_files:
