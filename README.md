@@ -5,7 +5,7 @@ Home: https://github.com/brsynth/rp2biosensor/
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rp2biosensor-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rp2biosensor-feedstock/blob/main/LICENSE.txt)
 
 Summary: Build Sensing-Enabling Metabolic Pathways from RetroPath2.0 output
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14922&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rp2biosensor-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14922&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rp2biosensor-feedstock?branchName=main">
       </a>
     </td>
   </tr>
